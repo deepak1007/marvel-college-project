@@ -60,6 +60,17 @@ header .changed ul li a {text-decoration: none; font-size:20px;color:white; text
 #capabout {background:url('./images/minimized/steve.jpg'); background-repeat:repeat; background-position-x:right; box-shadow: inset 55vw 10vh 141px 80px rgba(0, 0, 0, 0.98);}
 #cappowers{background:url('./images/minimized/worthy.jpg');box-shadow: inset -70vw 5vh 141px 80px rgba(0, 0, 0, 0.98); background-repeat:repeat-x; background-position-x:-55%; }
 
+/*thanos*/
+#thanosmain{background:url('./images/minimized/14865.jpg'); background-repeat:no-repeat; background-size:cover; background-size:cover;box-shadow: inset -55vw 10vh 141px 80px rgba(0, 0, 0, 0.64);}
+
+#thanosabout {background:url('./images/minimized/1Pgh5.jpg'); background-repeat:repeat; background-position-y:-150px;;box-shadow: inset 60vw 10vh 141px 80px rgba(0, 0, 0, 0.5);}
+
+#thanospowers{background:url('./images/minimized/thumb-1920-918805\ \(1\).jpg');background-size:cover;;box-shadow: inset -55vw 5vh 141px 80px rgba(0, 0, 0, 0.69); }
+
+
+
+
+
 /*.section:nth-child(even) .img{
     
     -webkit-clip-path: polygon(36% 0, 100% 0, 100% 100%, 0% 100%);
