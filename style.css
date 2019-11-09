@@ -32,7 +32,7 @@ header .changed ul li a {text-decoration: none; font-size:20px;color:white; text
 .home .foot img:hover{animation:rotate 1s infinite;}
 
 .section { width:100%;height:100vh ; background:rgba(225,225, 225, 0.89);position:relative}
-.section .char {display:flex; flex-direction:row; width:100%;height:90% ; background:whitesmoke;opacity:1;margin:0px 0px; padding:0px 0px; align-items:center; justify-items:space-around; top:50%; transform:translateY(-50%);position:absolute;}
+.section .char {display:flex; flex-direction:row; width:100%;height:100% ; background:whitesmoke;opacity:1;margin:0px 0px; padding:0px 0px; align-items:center; justify-items:space-around; top:50%; transform:translateY(-50%);position:absolute;}
 .section .char .img {height:100%; width:50%;background:#451e3e ; position:relative}
 .section .char .img img {width:100% ; height:100%;opacity:1; background:whitesmoke; position:absolute; top:50%;left:50%; transform:translate(-50%,-50%) }
 .section .char .text { display:flex; flex-direction:column;  align-items:center; width:100%; height:50%;font-family:'roboto'}
@@ -40,7 +40,7 @@ header .changed ul li a {text-decoration: none; font-size:20px;color:white; text
 .section .char .text h2{font-size:10vh;color: #851e3e}
 .section .char a {text-decoration: none; font-size:30px; margin-top:38px;}
 
-
+.section:nth-child(even) .char{background:rgba(230,230,230,1);}
 
 
 @keyframes bgscroll
